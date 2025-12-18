@@ -121,7 +121,7 @@ Os objetivos do projeto foram plenamente atingidos. O pipeline Medallion foi imp
 Este MVP demonstra a aplicação prática de conceitos fundamentais de Engenharia de Dados, como arquitetura Medallion, uso de Delta Lake e pipelines analíticos em Spark. Os resultados evidenciam que o sucesso musical é multifatorial, combinando atributos do artista, formato de lançamento e características da faixa.  
 
 Como evolução futura, o projeto pode ser expandido com:
-- Orquestração do pipeline;
+- Análise aprofundada para balizar decisões em ambientes corporativos;
 - Incremental loading;
 - Métricas de qualidade automatizadas;
 - Modelagem dimensional em star schema para BI.
