@@ -1,17 +1,18 @@
 # 📘 Autoavaliação – MVP de Engenharia de Dados
 
 ## 1. Contexto Acadêmico
-Este projeto foi desenvolvido o objetivo de demonstrar a compreensão dos principais conceitos, arquiteturas e boas práticas associadas à construção de pipelines de dados analíticos e atingiu 100% dos objetivos propostos.
+Este projeto foi desenvolvido com o objetivo de demonstrar a compreensão dos principais conceitos, arquiteturas e boas práticas associadas à construção de pipelines de dados analíticos e atingiu 100% dos objetivos propostos.
 
 ---
 
 ## 2. Avaliação do Escopo e Complexidade
-O escopo definido para o projeto mostrou-se **adequado e coerente** com os objetivos da disciplina. A utilização de um dataset real e público, aliado à implementação da arquitetura Medallion (Bronze, Silver e Gold), permitiu trabalhar simultaneamente aspectos de:
+O escopo definido para o projeto mostrou-se coerente com os objetivos da disciplina. A utilização de um dataset real e público, aliado à implementação da arquitetura Medallion (Bronze, Silver e Gold), permitiu trabalhar simultaneamente aspectos de:
 
 - Ingestão e armazenamento de dados;
 - Tratamento, padronização e governança;
 - Modelagem analítica;
 - Análise exploratória orientada a perguntas de negócio.
+
 ---
 
 ## 3. Arquitetura e Engenharia de Dados
@@ -43,7 +44,7 @@ As análises exploratórias realizadas demonstram capacidade de:
 - Relacionar métricas técnicas e comportamentais;
 - Interpretar resultados de forma crítica, evitando conclusões determinísticas.
 
-Um ponto positivo do projeto é o cuidado em **não extrapolar os resultados**, deixando explícito que as análises fornecem apenas indícios iniciais, o que demonstra maturidade analítica e alinhamento com boas práticas acadêmicas.
+Um ponto positivo do projeto é o cuidado em não extrapolar os resultados, deixando explícito que as análises fornecem apenas indícios iniciais, o que demonstra maturidade analítica e alinhamento com boas práticas acadêmicas.
 
 ---
 
@@ -52,15 +53,12 @@ Como parte da autoavaliação, destacam-se as seguintes limitações:
 
 - Dependência de métricas proprietárias do Spotify (ex.: popularidade);
 - Ausência de dados de consumo absoluto (streams, receita);
-- Análises estatísticas predominantemente descritivas;
-- Pipeline não incremental.
-
-Essas limitações foram compreendidas e aceitas como parte do escopo do MVP e não invalidam os objetivos da disciplina.
+- Análises estatísticas predominantemente descritivas.
 
 ---
 
 ## 7. Aderência aos Objetivos da Disciplina
-O projeto atende de forma consistente aos objetivos pedagógicos da disciplina de Engenharia de Dados, demonstrando:
+O projeto atende de forma consistente aos objetivos da disciplina de Engenharia de Dados, demonstrando:
 
 - Compreensão dos conceitos fundamentais;
 - Capacidade de implementação prática;
@@ -70,11 +68,10 @@ O projeto atende de forma consistente aos objetivos pedagógicos da disciplina d
 ---
 
 ## 8. Considerações Finais
-De forma geral, o MVP pode ser considerado **bem-sucedido dentro de sua proposta acadêmica**. Ele demonstra domínio conceitual, aplicação prática e pensamento crítico, servindo como uma base sólida para projetos mais complexos em contextos corporativos ou em disciplinas futuras do curso.
+De forma geral, o MVP pode ser considerado bem-sucedido dentro de sua proposta. Ele demonstra domínio conceitual, aplicação prática e pensamento crítico, servindo como uma base sólida para projetos mais complexos em contextos corporativos ou em disciplinas futuras do curso.
 
 Como próximos passos naturais, o projeto poderia evoluir para incorporar:
-- Cargas incrementais e automação;
-- Métricas formais de qualidade de dados;
+
 - Análises estatísticas e preditivas mais aprofundadas;
 - Conectar um Power BI diretamente às tabelas Delta para visualização interativa.
 
