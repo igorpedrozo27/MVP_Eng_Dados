@@ -30,7 +30,7 @@ O dataset contém informações sobre faixas, artistas e álbuns, incluindo mét
 O pipeline foi implementado seguindo a arquitetura **Medallion**, organizada nas seguintes camadas:
 
 ### 🔹 Staging
-- Upload manual do arquivo CSV em um **Volume do Databricks**.
+- Upload do arquivo CSV em um **Volume do Databricks**.
 - Camada temporária utilizada apenas como ponto de entrada dos dados brutos.
 
 ### 🔹 Bronze
@@ -113,7 +113,7 @@ As análises exploratórias realizadas na camada Gold responderam às seguintes 
 ---
 
 ## 🏁 8. Atingimento dos Objetivos
-Os objetivos do projeto foram plenamente atingidos. O pipeline Medallion foi implementado com sucesso, garantindo dados organizados, limpos e governados, além de viabilizar análises consistentes sobre os fatores que influenciam a popularidade musical no Spotify.
+Os objetivos do projeto foram plenamente atingidos. O pipeline Medallion foi implementado com sucesso, garantindo dados organizados, limpos e governados, além de viabilizar análises sobre os fatores que influenciam a popularidade musical no Spotify.
 
 ---
 
@@ -123,5 +123,4 @@ Este MVP demonstra a aplicação prática de conceitos fundamentais de Engenhari
 Como evolução futura, o projeto pode ser expandido com:
 - Análise aprofundada para balizar decisões em ambientes corporativos;
 - Incremental loading;
-- Métricas de qualidade automatizadas;
-- Modelagem dimensional em star schema para BI.
+- Métricas de qualidade automatizadas.
