@@ -21,7 +21,7 @@ Os dados utilizados neste projeto são provenientes do Kaggle:
 **Spotify Global Music Dataset (2009–2025)**  
 https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025
 
-O dataset contém informações sobre faixas, artistas e álbuns, incluindo métricas de popularidade, seguidores, duração das músicas e tipos de lançamento.
+O dataset contém informações sobre faixas, artistas e álbuns, incluindo métricas de popularidade, seguidores, duração das músicas e tipos de lançamento. Os dados refletem métricas calculadas e disponibilizadas pelo próprio Spotify, combinando características técnicas das faixas (audio features), informações de artistas e álbuns, além de indicadores de popularidade.
 
 ---
 
