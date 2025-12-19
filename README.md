@@ -60,28 +60,7 @@ Na camada Gold, foi adotada uma **modelagem em tabela flat**, consolidando infor
 
 ---
 
-## 📚 5. Catálogo de Dados (Resumo)
-
-**Faixa (Track)**
-- `track_id`
-- `track_name`
-- `track_popularity`
-- `track_duration_ms`
-
-**Artista**
-- `artist_name`
-- `artist_popularity`
-- `artist_followers`
-
-**Álbum**
-- `album_type` (album, single, compilation, Unknown)
-
-**Classificações Derivadas**
-- Segmentação de popularidade da faixa (Baixa, Média, Alta, Muito Alta)
-
----
-
-## 🧪 6. Qualidade e Governança dos Dados
+## 🧪 5. Qualidade e Governança dos Dados
 Foram aplicadas diversas práticas de qualidade e governança, incluindo:
 - Tratamento explícito de valores nulos;
 - Padronização de valores categóricos fora do domínio esperado;
@@ -91,7 +70,7 @@ Foram aplicadas diversas práticas de qualidade e governança, incluindo:
 
 ---
 
-## 📊 7. Análises e Principais Resultados
+## 📊 6. Análises e Principais Resultados
 As análises exploratórias realizadas na camada Gold responderam às seguintes questões:
 
 1. A popularidade do artista influencia a popularidade da faixa?
@@ -112,12 +91,12 @@ As análises exploratórias realizadas na camada Gold responderam às seguintes 
 
 ---
 
-## 🏁 8. Atingimento dos Objetivos
+## 🏁 7. Atingimento dos Objetivos
 Os objetivos do projeto foram plenamente atingidos. O pipeline Medallion foi implementado com sucesso, garantindo dados organizados, limpos e governados, além de viabilizar análises sobre os fatores que influenciam a popularidade musical no Spotify.
 
 ---
 
-## 🚀 9. Conclusão
+## 🚀 8. Conclusão
 Este MVP demonstra a aplicação prática de conceitos fundamentais de Engenharia de Dados, como arquitetura Medallion, uso de Delta Lake e pipelines analíticos em Spark. Os resultados evidenciam que o sucesso musical é multifatorial, combinando atributos do artista, formato de lançamento e características da faixa.  
 
 Como evolução futura, o projeto pode ser expandido com:
